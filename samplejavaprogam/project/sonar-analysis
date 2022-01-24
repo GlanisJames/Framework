@@ -1,5 +1,5 @@
 sonar.login=admin
-    D sonar.password=@Aa8983238632
+    D sonar.password=root
       sonar.projectBaseDir=/var/lib/jenkins/workspace/jenkins-sonar/
         sonar.projectKey=FreestyleprojectgitjenkinsSonarqube
         sonar.projectName=FreestyleprojectgitjenkinsSonarqube
@@ -8,4 +8,5 @@ sonar.login=admin
         sonar.sources=/samplejavaprogam/project/src/main/java
         sonar.tests=/samplejavaprogam/project/src/test/java
         sonar.exclusions=vendor/**,resources/**,**/*.java
-        sonar.host.url=http://192.168.1.59:9000/
+        sonar.host.url=http://192.168.1.187:9000/
+
